@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product-image img {
+            width: 25%;
+            border-radius: 10px;
+        }
+        .product-details {
+            margin-top: 20px;
+        }
+        .product-name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .product-price {
+            font-size: 20px;
+            color: red;
+            margin-top: 10px;
+        }
+        .product-description {
+            margin-top: 10px;
+            color: #080427;
+        }
+        .add-to-cart {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #27ae60;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .add-to-cart:hover {
+            background: #219150;
+        }
+        .nav-img {
+            width: 100%; 
+            height: auto;
+            display: block;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        .header-slider {
+            width: 100%;
+            height: 150px; /* Adjust height for small header */
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .slide-container {
+            display: flex;
+            width: 300%;
+            height: 100%;
+    
+        }
+        
+        .slide {
+            width: 100%;
+            flex: 1;
+            animation: slide-animation 2s infinite;
+        }
+        
+        .slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        /* Auto Slide Animation */
+        @keyframes slide-animation {
+            0% { transform: translateX(0); }
+            33% { transform: translateX(-100%); }
+            66% { transform: translateX(-200%); }
+            100% { transform: translateX(0); }
+        }
+        
+        
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <nav>
+        <div class="header-slider">
+            <div class="slide-container">
+                <div class="slide"><img src="shutterstock_1784238500.jpg" alt="Image 1"></div>
+                <div class="slide"><img src="header.jpeg" alt="Image 2"></div>
+                <div class="slide"><img src="h1.jpeg" alt="Image 3"></div>
+            </div>
+        </div>
+            <button><a href="index.html">Home</a></button>
+            <button><a href="shop.html">Shop</a></button>
+            <button><a href="contact.html">Contact</a></button>
+            <button><a href="about.html">About</a></button>
+        
+    </nav>
+    
+        <div class="product-image">
+            <img src="image.png" alt="Product Image">
+
+        </div>
+        <div class="product-details">
+            <div class="product-name">Smocked cropped top</div>
+            <div class="product-price">RS.1499</div>
+            <div class="product-description">h&m</div>
+            <a href="#" class="add-to-cart">Add to Cart</a>
+            </div>
+
+            <div class = "product-image">
+                <img src="th.jpeg" alt="Product Image">
+            </div>
+            <div class="product-details">
+            <div class="product-name">Abstract Viscose V-Neck Women's Top</div>
+            <div class="product-price">RS.999</div></div>
+            <div class="product-description">h&m</div>
+            <a href="#" class="add-to-cart">Add to Cart</a>
+
+            <div class="product-image">
+                <img src="cc5638d199a481db1054fa99906fff4b693ba65f.avif" alt="Product Image">
+    
+            </div>
+            <div class="product-details">
+                <div class="product-name">Fitted T-shirt</div>
+                <div class="product-price">Rs.299.00</div>
+                <div class="product-description">h&m</div>
+                <a href="#" class="add-to-cart">Add to Cart</a>
+
+                <div class="product-image">
+                    <img src="th (1).jpeg" alt="Product Image">
+        
+                </div>
+                <div class="product-details">
+                    <div class="product-name">Boys Fine-Knit Cotton Cardigan</div>
+                    <div class="product-price">Rs.899.00</div>
+                    <div class="product-description">h&m</div>
+                    <a href="#" class="add-to-cart">Add to Cart</a>
+        
+    
+                </div>
+                <div class="product-details">
+                    <img src="kid3.jpeg" alt="Product Image">
+        
+                </div>
+                <div class="product-details">
+                    <div class="product-name">cotton baby girl dress</div>
+                    <div class="product-price">Rs.899.00</div>
+                    <div class="product-description">h&m</div>
+                    <a href="#" class="add-to-cart">Add to Cart</a>
+        
+    
+                </div>
+                <div class="product-details">
+                    <img src="kid6.jpeg" alt="Product Image">
+        
+                </div>
+                <div class="product-details">
+                    <div class="product-name">Girls & Baby Girls special occasion dress </div>
+                    <div class="product-price">Rs.899.00</div>
+                    <div class="product-description">h&m</div>
+                    <a href="#" class="add-to-cart">Add to Cart</a>
+                </div>
+                <div class="product-image">
+                    <img src="img3.webp" alt="Product Image">
+        
+                </div>
+                <div class="product-details">
+                    <div class="product-name">kurta set with dupata</div>
+                    <div class="product-price">RS.1499</div>
+                    <div class="product-description">h&m</div>
+                    <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>
+                    <div class="product-image">
+                        <img src="bc6698be633109664e28b1b86c0cbe3c9ca72014.avif" alt="Product Image">
+            
+                    </div>
+                    <div class="product-details">
+                        <div class="product-name"> Fit Cotton shirt</div>
+                        <div class="product-price">RS.899</div>
+                        <div class="product-description">h&m</div>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                        </div>
+            
+                        <div class = "product-image">
+                            <img src="2871b3999264d45fc3f7402fb89ab9732e15fe3b.avif" alt="Product Image">
+                        </div>
+                        <div class="product-details">
+                        <div class="product-name">short shirt</div>
+                        <div class="product-price">RS.999</div></div>
+                        <div class="product-description">h&m</div>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+            
+                        <div class="product-image">
+                            <img src="3fb61ea7c0b246786d09b63af2a4d0e561535cb5.avif" alt="Product Image">
+                
+                        </div>
+                        <div class="product-details">
+                            <div class="product-name">Fitted T-shirt</div>
+                            <div class="product-price">Rs.499.00</div>
+                            <div class="product-description">h&m</div>
+                            <a href="#" class="add-to-cart">Add to Cart</a>
+        
+                    <div class = "product-image">
+                        <img src="img4.webp" alt="Product Image">
+                    </div>
+                    <div class="product-details">
+                    <div class="product-name"> V-Neck Women's kurta set</div>
+                    <div class="product-price">RS.999</div></div>
+                    <div class="product-description">h&m</div>
+                    <a href="#" class="add-to-cart">Add to Cart</a>
+        
+                    <div class="product-image">
+                        <img src="img5.webp" alt="Product Image">
+            
+                    </div>
+                    <div class="product-details">
+                        <div class="product-name">cotton kurta set</div>
+                        <div class="product-price">Rs.1199.00</div>
+                        <div class="product-description">h&m</div>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+        
+        </div>
+
+    </div>
+</body>
+</html>
+
